@@ -16,6 +16,9 @@ in a shell this agent can run.
 3. **Stop and show the table to the human.** Publish nothing until they approve it.
 4. Ask the human what every issue here must carry (fields, labels, wording), unless it is
    already written down in this session or in the repo.
+
+   Every issue here carries: a first line `Source: plan.md § <n>`, the label `plan:<plan name>`,
+   then the sections Scope, Done when, Blocked by and Model.
 5. Create each issue in dependency order, so blocked-by can cite real numbers:
 
    ```sh
